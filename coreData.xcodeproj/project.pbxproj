@@ -22,6 +22,9 @@
 		9C18CCD419C34A77006EF126 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C18CCB819C34A76006EF126 /* CoreData.framework */; };
 		9C18CCDC19C34A77006EF126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C18CCDA19C34A77006EF126 /* InfoPlist.strings */; };
 		9C18CCDE19C34A78006EF126 /* coreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C18CCDD19C34A78006EF126 /* coreDataTests.m */; };
+		9C18CCE819C34BE4006EF126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C18CCE719C34BE4006EF126 /* Main.storyboard */; };
+		9C18CCEB19C34E40006EF126 /* FaveCarsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C18CCEA19C34E40006EF126 /* FaveCarsTableViewController.m */; };
+		9C18CCEE19C34E76006EF126 /* FaveCarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C18CCED19C34E76006EF126 /* FaveCarsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		9C18CCD919C34A77006EF126 /* coreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "coreDataTests-Info.plist"; sourceTree = "<group>"; };
 		9C18CCDB19C34A77006EF126 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C18CCDD19C34A78006EF126 /* coreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreDataTests.m; sourceTree = "<group>"; };
+		9C18CCE719C34BE4006EF126 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		9C18CCE919C34E40006EF126 /* FaveCarsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaveCarsTableViewController.h; sourceTree = "<group>"; };
+		9C18CCEA19C34E40006EF126 /* FaveCarsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaveCarsTableViewController.m; sourceTree = "<group>"; };
+		9C18CCEC19C34E76006EF126 /* FaveCarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaveCarsViewController.h; sourceTree = "<group>"; };
+		9C18CCED19C34E76006EF126 /* FaveCarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaveCarsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,11 @@
 			children = (
 				9C18CCC319C34A77006EF126 /* AppDelegate.h */,
 				9C18CCC419C34A77006EF126 /* AppDelegate.m */,
+				9C18CCE719C34BE4006EF126 /* Main.storyboard */,
+				9C18CCE919C34E40006EF126 /* FaveCarsTableViewController.h */,
+				9C18CCEA19C34E40006EF126 /* FaveCarsTableViewController.m */,
+				9C18CCEC19C34E76006EF126 /* FaveCarsViewController.h */,
+				9C18CCED19C34E76006EF126 /* FaveCarsViewController.m */,
 				9C18CCC919C34A77006EF126 /* Images.xcassets */,
 				9C18CCC619C34A77006EF126 /* coreData.xcdatamodeld */,
 				9C18CCBB19C34A76006EF126 /* Supporting Files */,
@@ -228,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C18CCE819C34BE4006EF126 /* Main.storyboard in Resources */,
 				9C18CCBF19C34A77006EF126 /* InfoPlist.strings in Resources */,
 				9C18CCCA19C34A77006EF126 /* Images.xcassets in Resources */,
 			);
@@ -249,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C18CCC519C34A77006EF126 /* AppDelegate.m in Sources */,
+				9C18CCEE19C34E76006EF126 /* FaveCarsViewController.m in Sources */,
 				9C18CCC819C34A77006EF126 /* coreData.xcdatamodeld in Sources */,
+				9C18CCEB19C34E40006EF126 /* FaveCarsTableViewController.m in Sources */,
 				9C18CCC119C34A77006EF126 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
